@@ -1,5 +1,5 @@
 	class Patient
-  attr_accessor :name, :appointments
+  attr_accessor :name, :appointments, :doctor
   
   def new_appointment(doctor,date)
   appointment = Appointment.new(self,doctor,date)
